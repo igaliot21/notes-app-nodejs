@@ -1,0 +1,23 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Notes App node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igaliot21/notes-app-nodejs.git"
+  },
+  "author": "igaliot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igaliot21/notes-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/igaliot21/notes-app-nodejs#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^10.8.0"
+  }
+}

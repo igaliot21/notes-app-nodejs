@@ -1,6 +1,12 @@
-const fs = require('fs');
-const workFile01 = 'notes.txt';
+//const validator = require('validator');
+const getNotes = require('./notes.js');
+const chalk = require('chalk');
 
-fs.writeFileSync(workFile01,'My name is... what?');
+//console.log(getNotes());
 
-fs.appendFileSync(workFile01,'\nAnd that would be another line...yay!!');
+//console.log(validator.isEmail('gmail.com'));
+
+//console.log(validator.isURL('http/www.google.es'));
+
+console.log(chalk.bold.green('Success!'));
+console.log(chalk.bold.red('Error!'));
